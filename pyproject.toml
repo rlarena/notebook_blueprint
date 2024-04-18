@@ -8,8 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 jupyter = "^1.0.0"
-gymnasium = "^0.29.1"
+gymnasium = {extras = ["box2d"], version = "^0.29.1"}
 stable-baselines3 = "^2.3.0"
+pettingzoo = "^1.24.3"
 
 
 [build-system]
