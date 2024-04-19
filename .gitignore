@@ -3,7 +3,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+competitions/notebook_blueprint
 # C extensions
 *.so
 
